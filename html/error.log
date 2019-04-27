@@ -1,0 +1,26 @@
+ERROR:root:
+Traceback (most recent call last):
+  File "E:\demo\test.py", line 6, in <module>
+    raise Exception
+Exception
+ERROR:root:'charmap' codec can't decode byte 0x9d in position 327430: character maps to <undefined>
+Traceback (most recent call last):
+  File "E:\demo\webscrap\wscrap.py", line 45, in read_webpage_from_html
+    self.__data=fobj.read()
+  File "C:\Users\A S H I K\AppData\Local\Programs\Python\Python37-32\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x9d in position 327430: character maps to <undefined>
+ERROR:root:'charmap' codec can't decode byte 0x90 in position 245598: character maps to <undefined>
+Traceback (most recent call last):
+  File "E:\demo\webscrap\wscrap.py", line 45, in read_webpage_from_html
+    self.__data=fobj.read()
+  File "C:\Users\A S H I K\AppData\Local\Programs\Python\Python37-32\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x90 in position 245598: character maps to <undefined>
+ERROR:root:'charmap' codec can't decode byte 0x90 in position 245588: character maps to <undefined>
+Traceback (most recent call last):
+  File "E:\demo\webscrap\wscrap.py", line 45, in read_webpage_from_html
+    self.__data=fobj.read()
+  File "C:\Users\A S H I K\AppData\Local\Programs\Python\Python37-32\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x90 in position 245588: character maps to <undefined>
